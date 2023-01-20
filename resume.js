@@ -68,4 +68,6 @@ let myResume={
       }
     ]
   }
+  for(let x in myResume){
   console.log(myResume);
+  }
