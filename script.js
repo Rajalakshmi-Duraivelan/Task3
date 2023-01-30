@@ -1,5 +1,5 @@
 
-var json = { 
+let json = { 
     "userdetails":[{
       "id": 1,
       "first_name": "John",
@@ -40,3 +40,4 @@ console.log(x);
 }
 
 //For-Each Loop.
+json.userlist.forEach(element => console.log(element));
